@@ -1,0 +1,138 @@
+{
+  "table": {
+    "header": [
+      {
+        "wights": "Label",
+        "text": "товар",
+        "row": 0,
+        "column": 0,
+        "columnspan": 1
+      },
+      {
+        "wights": "Label",
+        "text": "кол-во ед.",
+        "row": 0,
+        "column": 1,
+        "columnspan": 1
+      },
+      {
+        "wights": "Label",
+        "text": "цена за ед",
+        "row": 0,
+        "column": 2,
+        "columnspan": 1
+      },
+      {
+        "wights": "Label",
+        "text": "кол-во дней",
+        "row": 0,
+        "column": 3,
+        "columnspan": 1
+      },
+      {
+        "wights": "Label",
+        "text": "итог",
+        "row": 0,
+        "column": 5,
+        "columnspan": 1
+      }
+    ],
+    "line": [
+        {
+          "wights": "Entry",
+          "text": "",
+          "row": 1,
+          "column": 0
+        },
+        {
+          "wights": "Entry",
+          "text": "",
+          "row": 1,
+          "column": 1
+        },
+        {
+          "wights": "Entry",
+          "text": "",
+          "row": 1,
+          "column": 2
+        },
+        {
+          "wights": "Entry",
+          "text": "",
+          "row": 1,
+          "column": 3
+        },
+        {
+          "wights": "Button",
+          "text": "=",
+          "row": 1,
+          "column": 4
+        },
+        {
+          "wights": "Entry",
+          "text": "",
+          "row": 1,
+          "column": 5
+        }
+      ]
+      },
+  "footer": [
+    [
+      {
+        "wights": "Label",
+        "text": "Всего затраты за год :",
+        "row": 4,
+        "column": 1,
+        "columnspan": 4
+      },
+      {
+        "wights": "Button",
+        "text": "=",
+        "row": 4,
+        "column": 4
+      },
+      {
+        "wights": "Entry",
+        "text": "",
+        "row": 4,
+        "column": 5
+      }
+    ],
+    [
+      {
+        "wights": "Label",
+        "text": "количество лет :",
+        "row": 5,
+        "column": 1,
+        "columnspan": 4
+      },
+      {
+        "wights": "Entry",
+        "text": "",
+        "row": 5,
+        "column": 5
+      }
+    ],
+    [
+      {
+        "wights": "Label",
+        "text": "Общее количество за все года :",
+        "row": 6,
+        "column": 1,
+        "columnspan": 4
+      },
+      {
+        "wights": "Button",
+        "text": "=",
+        "row": 6,
+        "column": 4
+      },
+      {
+        "wights": "Entry",
+        "text": "",
+        "row": 6,
+        "column": 5
+      }
+    ]
+  ]
+}
