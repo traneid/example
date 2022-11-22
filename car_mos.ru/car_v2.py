@@ -17,7 +17,7 @@ class AddInfoCar:
         self.__collect_data_car(car)
 
     def __collect_data_car(self, car):
-        url = f'http://ws.pecom.ru/AvtoPEK_YYR_2/hs/pkUatInfo/v1/car?number={car}'
+        url = f'http://{car}'
         res = requests.get(url, auth=(self.__authorization['user_name'], self.__authorization['password']))
         print(res.status_code)
         if res.status_code == 200:
@@ -249,7 +249,7 @@ if __name__ == '__main__':
                       'Паспорт ТС_10367',
                       'Карточка доступа на международное ТС', 'Диагоностическая карта (Талон техосмотра)']
 
-    authorization = {'user_name': 'uatInfo',
-                     'password': 'P6nUZxkWmK'}
+    authorization = {'user_name': 'user_name',
+                     'password': 'password'}
 
     App(label_car, conformity, authorization, documents_name)
